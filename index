@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> page title</title>
+    <link rel="stylesheet" href="stylemaster.css">
+    <div class="head-image">
+     <img width = 100% src=SVGs/bannerDtxt.svg> 
+     </div>
+     <style>
+     body {
+     background-image: url('SVGs/Llcrop3Vec.svg');
+     }
+     </style>
+    <div class="head-wrap">
+    <div class="catchAll">
+    <!-- <div class="topbar">
+        <div class="midnav">
+        <a href ="Contaxt.html"> Contact </a>
+        </div>
+        
+        <!--<label> enter box dims:</label><br>
+        <input type="text" id="dimension"><br>
+        <button type="button" id="dimbutton">parse</button> 
+        document.getElementById("dimbutton").onclick = function(){
+        var nyName = document.getElementById("dimension").v
+        } -->
+</head>
+<body>
+<div class="tile-master">
+<div class="u-tile">
+            <div class="back-svg">
+            <a href="Catalog.html"><img width = 105.5% src="SVGs/UlDispaVec.svg"></a>
+            </div>
+        </div>
+        <div class="ur-position">
+        <div class="u-tile">
+            <div class="back-svg"> 
+            <a href="form_calc"><img width = 105.5% src="SVGs/Urcrop4Proto2Vec.svg"></a>
+                </div>
+        </div>
+        </div>
+        <div class="low-position1">
+        <div class="u-tile">
+            <div class="back-svg">  
+            <a href="exclusive_projects.html"><img width = 105.5% src="SVGs/LlprotoVec.svg"></a>
+            </div>
+        </div>
+        </div>
+        <div class="low-position2">
+        <div class="u-tile">
+                <div class="back-svg">  
+                <a href="Contaxt.html"><img width = 105.5% src="SVGs/LrDispaVec.svg"></a>
+                </div>
+        </div>
+        </div>
+        </div>
+        
+    </div>
+<footer style="height:auto; background-color:#F7C201;">
+<h1> MaineCoast Shop 2017-2022 </h1>
+</footer>
+</body>
+</html>

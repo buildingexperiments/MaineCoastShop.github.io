@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box Calculator</title>
+    <div class="head-image">
+     <img width = 100% src=SVGs/Customcalcbanner.svg> 
+     </div>
+    <style>
+            .formBox{
+            padding: 1rem 1rem;
+        }
+        body {
+     background-image: url('SVGs/Llcrop3Vec.svg');
+     }
+    </style>
+</head>
+
+<div class="catchAll">
+        <div class="topbar">
+        <div class="midnav">
+        <a href ="index2.html"> Back to Main Page </a>
+        </div>
+        
+<div class="boxtypelist">
+<h2> Classes:</h2>
+<h4> "regular": Box joints on one dimension, rabbeted bottom</h4>
+<h4> "2dim": Box joints on two dimensions, joined bottom </h4>
+<h4> "3dim": Box joints on all three dimensions, joined bottom </h4>
+
+<body>
+    <form onsubmit="event.preventDefault();">
+      <div class="formBox">
+            <label for="c">Box Class</label>
+            <input type="text" id="class" placeholder="Enter from class list"/>
+        </div>
+        <div class="formBox">
+            <label for="l">Length</label>
+            <input type="number" id="length" placeholder="0"/>
+        </div>
+        <div class="formBox">
+            <label for="w">Width</label>
+            <input type="number" id="width" placeholder="0"/>
+        </div>
+        <div class="formBox">
+            <label for="h">Height</label>
+            <input type="number" id="height" placeholder="0"/>
+        </div>
+        <div class="formBox">
+            <button id="btn" onclick="calcPrice()">Calculate Box Price</button>
+        </div>
+        <div id="msg">
+            <pre></pre>
+        </div>
+        <div class="pricetxt">
+        <p id="costxta"> Your custom box unassembled costs -- $</p>
+        <p id="costxtb"> Your custom box assembled costs -- $</p>
+        </div
+    </form>
+    <script>
+            let Dims = [document.getElementById('class').value, document.getElementById('length').value, document.getElementById('width').value, document.getElementById('height').value];
+            
+            function calcPrice(l,w,h) {
+            l = document.getElementById('length').value;
+            w = document.getElementById('width').value;
+            h = document.getElementById('height').value;
+            c = document.getElementById('class').value;
+            s = 'june';
+            
+           /* document.addEventListener('click',() ==> {
+                let solution = c.localeCompare(s);
+                output.innerText = result ==, 0 ? 'Ligma' : 'no ligma'
+            }); */
+            
+            let numinchc1 = 300 * h + 2 * w + 2 * l + ((w - (1/2))+(l-(1/2)))+2*(w-(1/2))+2*(l-(1/2));
+            let price = numinchc1 * 0.01;
+            let assembledPrice = price * 2;
+            
+            document.getElementById("costxta").innerHTML = "Your " + c + " custom box unassembled costs " + price + " $";
+            document.getElementById("costxtb").innerHTML = "Your " + c + " custom box assembled costs " + assembledPrice + " $";
+            
+            if (l == 6 && w == 11 && h == 22) {
+                document.getElementById("costxta").innerHTML = "first_Commerce_Site/Iris_grad_present";
+                document.getElementById("costxtb").innerHTML = "COngratulations Iris for becoming a big college kid!";
+            }
+            
+            if (l > 24) {
+                document.getElementById("costxta").innerHTML = "Your custom box length cannot exceed 24 inches!";
+                document.getElementById("costxtb").innerHTML = "Contact boxmaker for larger custom boxes";
+            }
+            if (w > 24) {
+                document.getElementById("costxta").innerHTML = "Your custom box width cannot exceed 24 inches!";
+                document.getElementById("costxtb").innerHTML = "Contact boxmaker for larger custom boxes";
+            }
+            if (h > 24) {
+                document.getElementById("costxta").innerHTML = "Your custom box height cannot exceed 24 inches!";
+                document.getElementById("costxtb").innerHTML = "Contact boxmaker for larger custom boxes";
+            }
+            
+            if (c == june) {
+                document.getElementById("costxta").innerHTML = "ligma";
+                document.getElementById("costxtb").innerHTML = "Contact boxmaker for larger custom boxes";
+                }
+                
+            
+            }
+            
+            
+        document.addEventListener('DOMContentLoaded', ()=>{
+
+        });
+    </script>
+    <footer style="height:auto; background-color:#F7C201;">
+<h1> MaineCoast Shop 2017-2022 </h1>
+</footer>
+</body>
+</html>

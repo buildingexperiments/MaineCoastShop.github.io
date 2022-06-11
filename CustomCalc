@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+body {
+     background-image: url('SVGs/Llcrop3Vec.svg');
+     }
+</style>
+<script>
+
+let userDimensions = [10,13,3];
+
+
+let finalPrice = customCalc(userDimensions)
+
+function customCalc();
+
+</script>
+<body>
+    <div class= "Inptbtn">
+    <input type="text" placholder="Enter Box Dimensions">
+    </div
+types: regular, 2dim, 3dim
+<div class="">
+ <h1>This is a Heading</h1>
+ <p>This is a paragraph.</p>
+ <p>This is another paragraph.</p>
+</div>
+
+</body>
+</html> 

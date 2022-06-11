@@ -1,0 +1,88 @@
+.title {
+    position:relative;
+    top: 50%;
+    text-align: center;
+    font-size: 25px;
+    font-family; 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: skyblue;
+}
+   .head-image {background:  
+       background-size:  100% 170px; 
+       filter: sepia(1)
+}
+
+.midnav {
+    background-color: #F7C201;
+}
+
+body{
+    margin: 0px;
+}
+
+
+.tile-master {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+}
+
+.back-svg {
+
+}
+.ur-position {
+        position: relative;
+        right: 5.5%;
+}
+
+.low-position1 {
+    position: relative;
+    top:-13.8%;
+}
+
+.low-position2 {
+    position: relative;
+    top:-13.8%;
+    right: 5.5%;
+}
+
+.u-tile: hover  {
+    background-color: black;
+}
+.back-svg {
+    transition: 0.5s;
+}
+
+.back-svg:hover {
+    filter: sepia(1);
+}
+.overlay {
+    position: absolute;
+    top: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    text-align: center;
+    margin-left: 12vw;
+    margin-right: 60vw;
+}
+.overlay {
+    color: black;
+}
+
+.gradmaster {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
